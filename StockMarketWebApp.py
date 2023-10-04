@@ -10,8 +10,8 @@ import plotly.graph_objects as go
 import plotly.express as px
 import datetime
 from datetime import date, timedelta
-from statsmodels.tsa.arima_model import ARIMA
 import statsmodels.api as sm
+from statsmodels.tsa.arima_model import ARIMA
 from statsmodels.tsa.stattools import adfuller
 
 # Title
